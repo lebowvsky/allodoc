@@ -7,7 +7,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "Home", link: "/" },
+      { text: "Accueil", link: "/" },
       { text: "Règles générales", link: "/pages/regles-generales/avatars/avatars.md" },
       { text: "Messagerie", link: "/pages/messagerie/messagerie.md" },
       { text: "Devis facturation", link: "/pages/devis-facturation/devis-facturation.md" },

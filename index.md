@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: alt
       text: API Examples
-      link: /api-examples
+      link: /api-examples.md
 
 features:
   - title: Messagerie
