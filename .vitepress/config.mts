@@ -8,7 +8,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "Règles métier générales", link: "/pages/regles-generales/avatars/avatars.md" },
+      { text: "Règles générales", link: "/pages/regles-generales/avatars/avatars.md" },
       { text: "Messagerie", link: "/pages/messagerie/messagerie.md" },
       { text: "Devis facturation", link: "/pages/devis-facturation/devis-facturation.md" },
     ],
@@ -42,7 +42,11 @@ export default defineConfig({
             { text: "Markdown Examples", link: "/pages/regles-generales/markdown-examples" },
           ],
         },
-      ],
+        ],
+      "/pages/devis-facturation/": [
+        {text: "Devis facturation", items: [{text: "Actions dans DF", link: "/pages/devis-facturation/actions-dans-df.md"}, {text: "Récapitulatif", link: "/pages/devis-facturation/recapitulatif.md"}]},
+      ]
+      ,
     },
 
     socialLinks: [{ icon: "github", link: "https://github.com/vuejs/vitepress" }],
